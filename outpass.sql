@@ -3,7 +3,6 @@ use outpass;
 create table student(
 registrationNo bigint(9) not null,
 name varchar(100) not null,
-block varchar(2) not null,
 branch varchar(50) not null,
 course varchar(100) not null,
 phoneNumber bigint(20) not null,
